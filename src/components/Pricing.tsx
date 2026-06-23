@@ -53,7 +53,7 @@ const Pricing = () => {
   const oneTimeServices = [
     {
       name: "Basic Setup",
-      price: "₹5,000",
+      price: "₹6,000",
       description: "One-time setup on up to All OTAs",
       permonth: false,
       features: [
@@ -177,7 +177,7 @@ const Pricing = () => {
                   <div
                     className={cn(
                       "text-3xl font-bold text-orange-500",
-                      index === 0 ? "" : "hidden"
+                      index === 0 ? "" : "hidden",
                     )}
                   >
                     {service.price}
@@ -185,7 +185,7 @@ const Pricing = () => {
                   <div
                     className={cn(
                       "text-sm text-gray-600",
-                      index === 0 ? "" : "hidden"
+                      index === 0 ? "" : "hidden",
                     )}
                   >
                     {service.permonth ? "Quarterly" : "one-time"}
